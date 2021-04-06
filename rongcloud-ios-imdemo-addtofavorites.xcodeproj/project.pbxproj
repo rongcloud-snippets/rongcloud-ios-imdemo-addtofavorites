@@ -118,6 +118,7 @@
 			buildConfigurationList = 9BCEB35C24F51113005EE498 /* Build configuration list for PBXNativeTarget "rongcloud-ios-imdemo-addtofavorites" */;
 			buildPhases = (
 				B0481C1A8ECE6C82D2049A41 /* [CP] Check Pods Manifest.lock */,
+				9B7D76E1261BF2EF00C6A60F /* ShellScript */,
 				9BCEB33F24F51112005EE498 /* Sources */,
 				9BCEB34024F51112005EE498 /* Frameworks */,
 				9BCEB34124F51112005EE498 /* Resources */,
@@ -179,6 +180,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		9B7D76E1261BF2EF00C6A60F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nsh before_build.sh Podfile rongcloud-ios-imdemo-addtofavorites/RCSConfig.h\n";
+		};
 		B0481C1A8ECE6C82D2049A41 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
